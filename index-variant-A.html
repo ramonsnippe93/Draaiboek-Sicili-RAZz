@@ -271,7 +271,7 @@ const camps=[
 ["Vemacar","Bevestig de uiterste inlevertijd schriftelijk vooraf.","zien","https://www.vemacar.it/"],
 ["Palermo Airport","Mik op 08:00–08:30 aanwezig voor de vlucht van 11:00.","zien","https://www.google.com/maps/search/?api=1&query=Aeroporto+Falcone+Borsellino+Palermo"]]}
 ];
-const routeOrder=["pineta","lilybeo","luminoso","etnawine","tindari","palermo"];
+const routeOrder=["pineta","lilybeo","luminoso","etnawine","tindari","rais","palermo"];
 const routeCamps=routeOrder.map(id=>camps.find(c=>c.id===id));
 const pages=[["overzicht","Overzicht"],["kaart","Kaart & route"],["dagen","Dagen"],["praktisch","Praktisch"],["wijn","Wijn"],["wildcards","Wildcards"],...routeCamps.map(c=>[c.id,c.title])];
 const nav=document.getElementById("nav");
